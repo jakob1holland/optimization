@@ -1,0 +1,12 @@
+Objective:
+
+1. Show pins of airports with relevant details (location, size, purpose)?
+
+
+The strategy:
+0. If information not available on website then trigger the flow otherwise show information
+1. Bash scripts to execute custom python scripts to access api
+2. python scripts will be executed by python
+3. information will be imported into database (mariadb)
+4. information about the airports will be visualized onto PHP/ Javascript website
+
